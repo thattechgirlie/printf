@@ -10,7 +10,6 @@ typedef struct format
 	char *id;
 	int (*f)();
 } structure;
-int main(void);
 int _putchar(char c);
 int _printf(const char *format, ...);
 int printf_string(va_list types);
