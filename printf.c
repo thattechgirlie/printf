@@ -6,7 +6,7 @@
  */
 int _printf(const char *format, ...)
 {
-structure t[] = {{ "%c", print_char}, {"%s", printf_string}, {"%%", printf_37}, {"%d", print_decimal}, {"%i", print_integer}, {"%b", print_binary}, {"%u", print_unsignedint}};
+structure t[] = {{ "%c", print_character}, {"%s", printf_string}, {"%%", printf_37}, {"%d", print_decimal}, {"%i", print_integer}, {"%b", print_binary}, {"%u", print_unsignedint}};
 va_list types;
 int h, g = 0, s = 0;
 va_start(types, format);

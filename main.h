@@ -16,7 +16,7 @@ int _printf(const char *format, ...);
 int printf_string(va_list types);
 int _strlen(char *str);
 int _strlenc(const char *str);
-int print_char(va_list types);
+int print_character(va_list types);
 int printf_37(void);
 int print_integer(va_list types);
 int print_decimal(va_list types);
